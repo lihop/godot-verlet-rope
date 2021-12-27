@@ -2,7 +2,7 @@ tool
 extends ImmediateGeometry
 class_name GDVerletRope
 
-const RopeUtil = preload("res://VerletRope/VerletRopeUtil.gd")
+const RopeUtil = preload("./VerletRopeUtil.gd")
 const RopeParticleData = RopeUtil.RopeParticleData
 
 # references: 
